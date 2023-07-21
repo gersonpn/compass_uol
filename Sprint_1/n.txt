@@ -1,1 +1,14 @@
-Compass_UOL
+GitHub é uma plataforma que permite armazenar e compartilhar código. Para armazenar seu código, você precisa criar um repositório no GitHub. Após criar um repositório, você pode usar o terminal do seu editor de código para enviar seus arquivos para o repositório.
+
+O primeiro passo é inicializar o repositório com o comando git init. Isso criará um arquivo .git na pasta atual. O arquivo .git contém informações sobre o repositório, como os arquivos que estão nele e a sua história de modificações.
+
+Em seguida, você precisa adicionar os arquivos que deseja enviar para o repositório com o comando git add. O comando git add . adicionará todos os arquivos na pasta atual ao repositório. O comando git add <nome do arquivo> adicionará apenas o arquivo especificado ao repositório.
+
+Depois de adicionar os arquivos, você precisa fazer um commit das alterações com o comando git commit. O comando git commit -m "mensagem" criará um novo commit no repositório e anexará uma mensagem à mensagem. A mensagem deve descrever as alterações que você fez nos arquivos.
+
+Na primeira vez que você envia arquivos para o GitHub, você precisa usar o comando git remote add origin <url do repositório>. Este comando adiciona o repositório remoto ao seu repositório local. O repositório remoto é o repositório no GitHub onde você armazenará seus arquivos.
+
+Por fim, você pode enviar os arquivos para o repositório remoto com o comando git push. O comando git push -u origin main enviará todos os commits do seu repositório local para o repositório remoto.
+
+Depois de enviar os arquivos pela primeira vez, você só precisa usar os comandos git add, git commit e git push para enviar as alterações subsequentes.
+"
