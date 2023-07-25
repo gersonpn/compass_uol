@@ -1,11 +1,4 @@
-# <span style="color: red;"> **__Trilha de estudos do programa de estágio e bolsas AWS Cloud Data Engineering__**
-
-
-# <span style="color: green;"> __Sprint 1__
-
-# Git e GitHub: Conceitos e Comandos Básicos
-
-
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=header"/>
 
 # Trilha de estudos do programa de estágio e bolsas AWS Cloud Data Engineering
 
@@ -120,3 +113,29 @@ O comando `git shortlog` gera um resumo de log legível por humanos de commits.
 - `git shortlog` mostra um resumo de log para todos os commits do repositório.
 - `git shortlog -s` mostra apenas o número de commits feitos por cada autor.
 - `git shortlog -n` mostra o resumo em ordem numérica, em vez de alfabética.
+
+### 18. Git Clean
+
+O comando `git clean` é usado para remover arquivos não rastreados do diretório de trabalho.
+
+- `git clean -n` mostra os arquivos que seriam removidos, mas não efetua a ação.
+- `git clean -f` remove os arquivos não rastreados definitivamente.
+
+### 19. Git GC (Garbage Collector)
+
+O comando `git gc` é usado para otimizar o repositório, removendo objetos não utilizados e compactando o banco de dados.
+
+- `git gc` realiza a limpeza e compactação do repositório.
+
+### 20. Git Fsck (File System Check)
+
+O comando `git fsck` é usado para verificar a integridade do repositório e dos objetos.
+
+- `git fsck` verifica a integridade dos objetos no repositório.
+
+### 21. Git Reflog
+
+O comando `git reflog` mostra o log de referências
+
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
