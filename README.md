@@ -135,7 +135,51 @@ O comando `git fsck` é usado para verificar a integridade do repositório e dos
 
 ### 21. Git Reflog
 
-O comando `git reflog` mostra o log de referências
+O comando `git reflog` mostra o log de referências.
+
+### 22. Git Archive
+
+O comando `git archive` permite criar um arquivo compactado (tar, zip, etc.) contendo os arquivos do repositório em um determinado commit.
+
+### 23. Private Branch
+
+A técnica de "Private Branch" envolve criar branches privadas para desenvolver recursos em particular, sem a preocupação de interferir no código principal ou compartilhar trabalhos inacabados.
+
+### 24. Git Rebase Interativo (Interactive Rebase)
+
+O comando `git rebase -i` é usado para reorganizar, editar ou combinar commits antes de enviá-los ao repositório remoto.
+
+### 25. Squash e Reword
+
+Dentro do rebase interativo, você pode usar as opções squash (esmagar) e reword (reeditar) para combinar ou modificar commits, respectivamente.
+
+### 26. Pull Request
+
+O Pull Request (PR) é uma funcionalidade do GitHub que permite aos colaboradores enviar as alterações que fizeram em suas branches para serem revisadas e mescladas à branch principal do repositório.
+
+### 27. Issues
+
+As Issues são uma forma de acompanhar tarefas, melhorias, correções de bugs ou discussões no repositório.
+
+### 28. Aba Actions
+
+A aba Actions do GitHub permite configurar e visualizar fluxos de trabalho de integração contínua (CI) e entrega contínua (CD) para automatizar testes e implantações do código.
+
+### 29. Aba Insights
+
+A aba Insights fornece uma visão geral do repositório com informações sobre o tráfego, atividades dos colaboradores e estatísticas de código.
+
+### 30. Forks
+
+Forking é uma ação de clonar um repositório para a sua conta do GitHub.
+
+### 31. Aba de Configurações do GitHub
+
+A aba de Configurações do repositório no GitHub oferece várias funcionalidades para personalizar o comportamento e a aparência do projeto, bem como gerenciar permissões, colaboradores e outras configurações importantes.
+
+### 32. Features e Gist
+
+O GitHub possui diversas features adicionais, como Gist, que permite compartilhar trechos de código ou notas de forma rápida e simples, sem a necessidade de criar um repositório completo.
 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
