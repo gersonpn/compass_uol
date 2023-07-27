@@ -9,7 +9,7 @@
 
   ### 🦄 Studying in this moment
 
-  <div style="display: inline_block" align = "center"><br>
+  <div style="display: inline_block" align = "left">
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -19,9 +19,8 @@
   </div>
 
  <br>
-  <a href="#" alt="LinkedIn">
-  </a>
-  <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a><a href="#" alt="Instagram">
+  <a href="https://www.linkedin.com/in/devgerson-pereira" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a><a href="https://www.instagram.com/gersonpn1/"  alt="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
 
 
