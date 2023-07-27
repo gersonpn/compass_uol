@@ -203,4 +203,18 @@ A aba de Configurações do repositório no GitHub oferece várias funcionalidad
 O GitHub possui diversas features adicionais, como Gist, que permite compartilhar trechos de código ou notas de forma rápida e simples, sem a necessidade de criar um repositório completo.
 
 
+# Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
+
+| Comando | Explicação | Exemplo |
+|---|---|---|
+| ls | Lista o conteúdo do diretório atual. | `ls` |
+| cd | Muda o diretório atual. | `cd /home/user` |
+| cat | Exibe o conteúdo de um arquivo. | `cat file.txt` |
+| mkdir | Cria um novo diretório. | `mkdir new_dir` |
+| rm | Remove um arquivo ou diretório. | `rm file.txt` |
+| cp | Copia um arquivo ou diretório. | `cp file.txt new_dir` |
+| mv | Move ou renomeia um arquivo ou diretório. | `mv file.txt new_dir/new_file.txt` |
+| pwd | Exibe o caminho do diretório atual. | `pwd` |
+
+
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
