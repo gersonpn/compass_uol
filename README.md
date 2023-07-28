@@ -111,7 +111,6 @@ Olá, me chamo Gerson Pereira,sou Técnico em Informática e graduando de Sistem
 | groupdel | Remove um grupo. | `sudo groupdel group_name` |
 | usermod -a -G group_name user_name | Adiciona um usuário a um grupo. | `sudo usermod -a -G sudo user_name` |
 | passwd | Altera a senha de um usuário. | `sudo passwd user_name` |
-Claro, aqui está a tabela com as informações adicionais:
 
 ## Permissões
 | Tipo de permissão | Símbolo | Descrição |
