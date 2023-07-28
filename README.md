@@ -135,6 +135,17 @@ Claro, aqui está a tabela com as informações adicionais:
 | `a=x` || Configura a permissão de execução para todos os usuários. |
 | Comando para alterar o proprietário/owner do arquivo | `chown` | Permite alterar o proprietário de um arquivo. |
 | Comando para alterar o grupo do arquivo | `chgrp` | Permite alterar o grupo de um arquivo.
+
+## Compactação
+
+|Compactação de arquivos | Descrição |
+|---|---|
+| `tar` | Permite compactar vários arquivos em um único arquivo. |
+| `tar -czvf arq.tar.gz` | Compacta vários arquivos em um arquivo chamado `arq.tar.gz` usando o algoritmo de compactação gzip. |
+| Comando para descompactar | `tar -zxvf arq.tar.gz` | Descompacta o arquivo `arq.tar.gz`. |
+| Comando para compactar zip | `zip arq.zip arquivo1 arquivo2` | Compacta os arquivos `arquivo1` e `arquivo2` em um arquivo chamado `arq.zip`. |
+| Comando para descompactar zip | `unzip arq.zip` | Descompacta o arquivo `arq.zip`. |
+
 ## Redes
 
 |Principais comandos de redes | Descrição |
@@ -145,16 +156,6 @@ Claro, aqui está a tabela com as informações adicionais:
 | `nslookup` | Permite resolver nomes de domínio em endereços IP. |
 | `tcpdump` | Permite capturar pacotes de rede. |
 
-
-## Compactação 
-
-|Compactação de arquivos | Descrição |
-|---|---|
-| `tar` | Permite compactar vários arquivos em um único arquivo. |
-| `tar -czvf arq.tar.gz` | Compacta vários arquivos em um arquivo chamado `arq.tar.gz` usando o algoritmo de compactação gzip. |
-| Comando para descompactar | `tar -zxvf arq.tar.gz` | Descompacta o arquivo `arq.tar.gz`. |
-| Comando para compactar zip | `zip arq.zip arquivo1 arquivo2` | Compacta os arquivos `arquivo1` e `arquivo2` em um arquivo chamado `arq.zip`. |
-| Comando para descompactar zip | `unzip arq.zip` | Descompacta o arquivo `arq.zip`. |
 
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
