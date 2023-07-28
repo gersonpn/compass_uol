@@ -1,14 +1,12 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=header"/>
 
 # Trilha de estudos do programa de estágio e bolsas AWS Cloud Data Engineering
-##  Apresentação:
+## Apresentação:
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="300px" max-width="300px" width="350px" align="right">
 
+Olá, me chamo Gerson Pereira,sou Técnico em Informática e graduando de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul. Atualmente, estou participando do programa de estágio e bolsas AWS Cloud Data Engineering na Compass Uol.
 
-
-Olá, me chamo Gerson Pereira, sou Técnico em Informática e graduando de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul e atualmente faço parte do programas de estágio e bolsas AWS Cloud Data Engineering na Compass Uol.
-
-  ### 🦄 Atualmente estudando:
+  ### 🦄 Tecnologias que estudo atualmente:
 
   <div style="display: inline_block" align = "left">
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -32,7 +30,7 @@ Olá, me chamo Gerson Pereira, sou Técnico em Informática e graduando de Siste
 
 # Sprint 1
 
-### A sprint 1 se consistiu nas realizações dos cursos básicos de Git e GitHub: Conceitos e Comandos Básicos e Linux para Desenvolvedores (c/ terminal, Shell, Apache e +), bem como a criação deste README. Abaixo você encontrará os principais comandos e funcionalidades aprendidas ao decorrer dos cursos.
+### A sprint 1 se consistiu nas realizações dos cursos básicos de Git e GitHub: Conceitos e Comandos Básicos e Linux para Desenvolvedores (c/ terminal, Shell, Apache e +), bem como a criação deste README. Abaixo você encontrará os principais comandos e funcionalidades aprendidas ao decorrer desta primeira atividade.
 # Git e GitHub: Conceitos e Comandos Básicos
 
 |Comando | Descrição |
@@ -113,5 +111,48 @@ Olá, me chamo Gerson Pereira, sou Técnico em Informática e graduando de Siste
 | groupdel | Remove um grupo. | `sudo groupdel group_name` |
 | usermod -a -G group_name user_name | Adiciona um usuário a um grupo. | `sudo usermod -a -G sudo user_name` |
 | passwd | Altera a senha de um usuário. | `sudo passwd user_name` |
+Claro, aqui está a tabela com as informações adicionais:
+
+## Permissões
+| Tipo de permissão | Símbolo | Descrição |
+|---|---|---|
+| Leitura | `r` | Permite ler o arquivo. |
+| Escrita | `w` | Permite escrever no arquivo. |
+| Execução | `x` | Permite executar o arquivo. |
+| Permissões numéricas | `1` | Permissão de leitura para o proprietário do arquivo. |
+| `2` | | Permissão de escrita para o proprietário do arquivo. |
+| `3` | | Permissão de execução para o proprietário do arquivo. |
+| `4` | | Permissão de leitura para o grupo do arquivo. |
+| `5` | | Permissão de escrita para o grupo do arquivo. |
+| `6` | | Permissão de execução para o grupo do arquivo. |
+| `7` | | Permissão de leitura para todos os usuários. |
+| `8` | | Permissão de escrita para todos os usuários. |
+| `9` | | Permissão de execução para todos os usuários. |
+| Comandos para alterar as permissões | `chmod` | Permite alterar as permissões de um arquivo. |
+| Permissões simbólicas | `u+x` | Adiciona a permissão de execução para o proprietário do arquivo. |
+| `g-w` ||  Remove a permissão de escrita para o grupo do arquivo. |
+| `o=r` || Configura a permissão de leitura para todos os usuários. |
+| `a=x` || Configura a permissão de execução para todos os usuários. |
+| Comando para alterar o proprietário/owner do arquivo | `chown` | Permite alterar o proprietário de um arquivo. |
+| Comando para alterar o grupo do arquivo | `chgrp` | Permite alterar o grupo de um arquivo.
+## Redes
+
+|Principais comandos de redes | Descrição |
+|---|---|
+| `ping` | Permite testar a conectividade com um host remoto. |
+| `netstat` | Permite exibir as conexões de rede ativas. |
+| `ifconfig` | Permite exibir as informações de configuração de rede. |
+| `nslookup` | Permite resolver nomes de domínio em endereços IP. |
+| `tcpdump` | Permite capturar pacotes de rede. |
+
+|Compactação de arquivos | Descrição |
+|---|---|
+| `tar` | Permite compactar vários arquivos em um único arquivo. |
+| `tar -czvf arq.tar.gz` | Compacta vários arquivos em um arquivo chamado `arq.tar.gz` usando o algoritmo de compactação gzip. |
+| Comando para descompactar | `tar -zxvf arq.tar.gz` | Descompacta o arquivo `arq.tar.gz`. |
+| Comando para compactar zip | `zip arq.zip arquivo1 arquivo2` | Compacta os arquivos `arquivo1` e `arquivo2` em um arquivo chamado `arq.zip`. |
+| Comando para descompactar zip | `unzip arq.zip` | Descompacta o arquivo `arq.zip`. |
+
+Espero que isso ajude!
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
