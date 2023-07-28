@@ -145,6 +145,9 @@ Claro, aqui está a tabela com as informações adicionais:
 | `nslookup` | Permite resolver nomes de domínio em endereços IP. |
 | `tcpdump` | Permite capturar pacotes de rede. |
 
+
+## Compactação 
+
 |Compactação de arquivos | Descrição |
 |---|---|
 | `tar` | Permite compactar vários arquivos em um único arquivo. |
@@ -153,6 +156,5 @@ Claro, aqui está a tabela com as informações adicionais:
 | Comando para compactar zip | `zip arq.zip arquivo1 arquivo2` | Compacta os arquivos `arquivo1` e `arquivo2` em um arquivo chamado `arq.zip`. |
 | Comando para descompactar zip | `unzip arq.zip` | Descompacta o arquivo `arq.zip`. |
 
-Espero que isso ajude!
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
