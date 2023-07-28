@@ -1,11 +1,12 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=header"/>
 
 # Trilha de estudos do programa de estágio e bolsas AWS Cloud Data Engineering
-
-
+##  Apresentação:
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="300px" max-width="300px" width="350px" align="right">
 
- ### Olá, me chamo Gerson Pereira, sou Técnico em Informática e graduando de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul e atualmente faço parte do programas de estágio e bolsas AWS Cloud Data Engineering na Compass Uol.
+
+
+Olá, me chamo Gerson Pereira, sou Técnico em Informática e graduando de Sistemas de Informação na Universidade Federal de Mato Grosso do Sul e atualmente faço parte do programas de estágio e bolsas AWS Cloud Data Engineering na Compass Uol.
 
   ### 🦄 Atualmente estudando:
 
@@ -27,185 +28,55 @@
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/>
   </a>
 
-
-## Git e GitHub: Conceitos e Comandos Básicos
-
-### 1. Inicializando um Repositório Local
-
-Para começar a usar o Git em seu projeto, você deve inicializar um repositório local com o comando `git init`. Isso criará um repositório vazio na pasta atual do projeto.
-
-### 2. Adicionando e Comitando Arquivos
-
-Use `git add` para adicionar os arquivos que deseja incluir no controle de versão.
-
-- `git add .` adiciona todos os arquivos modificados na pasta atual.
-- `git add <nome do arquivo>` adiciona um arquivo específico ao repositório.
-
-Para registrar as alterações no repositório, faça um commit com uma mensagem descritiva usando `git commit -m "Mensagem descrevendo as alterações"`.
-
-### 3. Conectando ao Repositório Remoto
-
-Antes de enviar os arquivos para o GitHub, conecte seu repositório local ao repositório remoto usando `git remote add origin <url do repositório>`. O repositório remoto é onde o código será armazenado na plataforma.
-
-### 4. Enviando e Atualizando o Repositório Remoto
-
-Para enviar os arquivos pela primeira vez, utilize `git push -u origin main`.
-
-Após o primeiro push, os comandos para enviar alterações subsequentes são:
-
-- `git add .`
-- `git commit -m "Mensagem descrevendo as alterações"`
-- `git push`
-
-### 5. Clone e Pull
-
-Para obter uma cópia de um repositório remoto para o seu computador, utilize `git clone <url do repositório>`.
-
-Para obter as últimas alterações do repositório remoto e sincronizá-las com o seu repositório local, use `git pull`.
-
-### 6. Removendo Arquivos
-
-Para remover arquivos do controle de versão e do repositório, utilize `git rm <nome do arquivo>`.
-
-### 7. Histórico e Informações
-
-Visualize o histórico de commits do repositório usando `git log`.
-
-### 8. Movendo e Renomeando Arquivos
-
-Utilize `git mv <nome do arquivo antigo> <nome do arquivo novo>` para mover ou renomear arquivos no repositório.
-
-### 9. Desfazendo Alterações
-
-Para desfazer alterações em arquivos antes do commit, use `git checkout -- <nome do arquivo>`.
-
-### 10. Arquivos Ignorados com .gitignore
-
-Crie um arquivo `.gitignore` para especificar quais arquivos e pastas devem ser ignorados pelo Git e não serão rastreados pelo controle de versão.
-
-### 11. Git Reset
-
-O comando `git reset` permite desfazer commits e alterações em seu repositório.
-
-- `git reset HEAD~1` desfaz o commit, mantendo as alterações no working directory.
-- `git reset --hard HEAD~1` desfaz o commit e descarta as alterações no working directory.
-
-### 12. Branches
-
-Branches são linhas de desenvolvimento independentes que permitem trabalhar em funcionalidades ou correções separadamente.
-
-- `git branch <nome da branch>` cria uma nova branch.
-- `git checkout <nome da branch>` muda para uma branch existente.
-- `git checkout -b <nome da branch>` cria e muda para uma nova branch.
-- `git branch -d <nome da branch>` exclui uma branch.
-
-### 13. Git Stash
-
-O comando `git stash` é útil quando você precisa salvar temporariamente as alterações atuais sem fazer um commit.
-
-- `git stash` salva as alterações em um stash.
-- `git stash list` lista os stashes salvos.
-- `git stash apply stash@{n}` aplica um stash específico.
-- `git stash drop stash@{n}` remove um stash específico.
-- `git stash pop` aplica e remove o stash mais recente.
-
-### 14. Git Submodule
-
-Git submodule é usado para incluir um repositório Git dentro de outro repositório Git.
-
-- `git submodule add <URL do repositório>` adiciona um submodule ao seu repositório.
-- `git submodule init` inicializa os submódulos após o clone.
-- `git submodule update` atualiza os submódulos existentes para as versões corretas.
-
-### 15. Git Show
-
-O comando `git show` é usado para exibir informações sobre um commit específico ou um objeto do Git.
-
-- `git show` exibe detalhes sobre o último commit.
-- `git show <hash do commit>` exibe informações detalhadas sobre o commit especificado.
-
-### 16. Git Diff
-
-O comando `git diff` mostra as diferenças entre commits, o working directory e o index.
-
-- `git diff` mostra as diferenças entre o working directory e o index.
-- `git diff <commit1>..<commit2>` mostra as diferenças entre dois commits.
-- `git diff --staged` mostra as diferenças entre o index e o último commit.
-
-### 17. Git Shortlog
-
-O comando `git shortlog` gera um resumo de log legível por humanos de commits.
-
-- `git shortlog` mostra um resumo de log para todos os commits do repositório.
-- `git shortlog -s` mostra apenas o número de commits feitos por cada autor.
-- `git shortlog -n` mostra o resumo em ordem numérica, em vez de alfabética.
-
-### 18. Git Clean
-
-O comando `git clean` é usado para remover arquivos não rastreados do diretório de trabalho.
-
-- `git clean -n` mostra os arquivos que seriam removidos, mas não efetua a ação.
-- `git clean -f` remove os arquivos não rastreados definitivamente.
-
-### 19. Git GC (Garbage Collector)
-
-O comando `git gc` é usado para otimizar o repositório, removendo objetos não utilizados e compactando o banco de dados.
-
-- `git gc` realiza a limpeza e compactação do repositório.
-
-### 20. Git Fsck (File System Check)
-
-O comando `git fsck` é usado para verificar a integridade do repositório e dos objetos.
-
-- `git fsck` verifica a integridade dos objetos no repositório.
-
-### 21. Git Reflog
-
-O comando `git reflog` mostra o log de referências.
-
-### 22. Git Archive
-
-O comando `git archive` permite criar um arquivo compactado (tar, zip, etc.) contendo os arquivos do repositório em um determinado commit.
-
-### 23. Private Branch
-
-A técnica de "Private Branch" envolve criar branches privadas para desenvolver recursos em particular, sem a preocupação de interferir no código principal ou compartilhar trabalhos inacabados.
-
-### 24. Git Rebase Interativo (Interactive Rebase)
-
-O comando `git rebase -i` é usado para reorganizar, editar ou combinar commits antes de enviá-los ao repositório remoto.
-
-### 25. Squash e Reword
-
-Dentro do rebase interativo, você pode usar as opções squash (esmagar) e reword (reeditar) para combinar ou modificar commits, respectivamente.
-
-### 26. Pull Request
-
-O Pull Request (PR) é uma funcionalidade do GitHub que permite aos colaboradores enviar as alterações que fizeram em suas branches para serem revisadas e mescladas à branch principal do repositório.
-
-### 27. Issues
-
-As Issues são uma forma de acompanhar tarefas, melhorias, correções de bugs ou discussões no repositório.
-
-### 28. Aba Actions
-
-A aba Actions do GitHub permite configurar e visualizar fluxos de trabalho de integração contínua (CI) e entrega contínua (CD) para automatizar testes e implantações do código.
-
-### 29. Aba Insights
-
-A aba Insights fornece uma visão geral do repositório com informações sobre o tráfego, atividades dos colaboradores e estatísticas de código.
-
-### 30. Forks
-
-Forking é uma ação de clonar um repositório para a sua conta do GitHub.
-
-### 31. Aba de Configurações do GitHub
-
-A aba de Configurações do repositório no GitHub oferece várias funcionalidades para personalizar o comportamento e a aparência do projeto, bem como gerenciar permissões, colaboradores e outras configurações importantes.
-
-### 32. Features e Gist
-
-O GitHub possui diversas features adicionais, como Gist, que permite compartilhar trechos de código ou notas de forma rápida e simples, sem a necessidade de criar um repositório completo.
+<br>
+
+# Sprint 1
+
+### A sprint 1 se consistiu nas realizações dos cursos básicos de Git e GitHub: Conceitos e Comandos Básicos e Linux para Desenvolvedores (c/ terminal, Shell, Apache e +), bem como a criação deste README. Abaixo você encontrará os principais comandos e funcionalidades aprendidas ao decorrer dos cursos.
+# Git e GitHub: Conceitos e Comandos Básicos
+
+|Comando | Descrição |
+|---|---|
+| `git init` | Inicializa um repositório local. |
+| `git add` | Adiciona arquivos ao repositório. |
+| `git commit` | Registra as alterações no repositório. |
+| `git remote add origin <url do repositório>` | Conecta o repositório local ao repositório remoto. |
+| `git push` | Envia as alterações do repositório local para o repositório remoto. |
+| `git pull` | Obtém as últimas alterações do repositório remoto e as sincroniza com o repositório local. |
+| `git rm` | Remove arquivos do repositório. |
+| `git log` | Exibe o histórico de commits do repositório. |
+| `git mv` | Move ou renomeia arquivos no repositório. |
+| `git checkout --` | Desfaz alterações em arquivos antes do commit. |
+| `.gitignore` | Cria um arquivo para especificar quais arquivos e pastas devem ser ignorados pelo Git. |
+| `git reset` | Desfaz commits e alterações no repositório. |
+| `git branch` | Cria uma nova branch. |
+| `git checkout` | Muda para uma branch existente. |
+| `git checkout -b` | Cria e muda para uma nova branch. |
+| `git branch -d` | Exclui uma branch. |
+| `git stash` | Salva as alterações atuais sem fazer um commit. |
+| `git submodule add` | Adiciona um submódulo ao repositório. |
+| `git submodule init` | Inicializa os submódulos após o clone. |
+| `git submodule update` | Atualiza os submódulos existentes para as versões corretas. |
+| `git show` | Exibe informações sobre um commit específico ou um objeto do Git. |
+| `git diff` | Mostra as diferenças entre commits, o diretório de trabalho e o índice. |
+| `git shortlog` | Gera um resumo de log legível por humanos de commits. |
+| `git clean` | Remove arquivos não rastreados do diretório de trabalho. |
+| `git gc` | Otimiza o repositório, removendo objetos não utilizados e compactando o banco de dados. |
+| `git fsck` | Verifica a integridade do repositório e dos objetos. |
+| `git reflog` | Mostra o log de referências. |
+| `git archive` | Cria um arquivo compactado (tar, zip, etc.) contendo os arquivos do repositório em um determinado commit. |
+| `Private Branch` | Cria branches privadas para desenvolver recursos em particular, sem a preocupação de interferir no código principal ou compartilhar trabalhos inacabados. |
+| `git rebase -i` | Reorganiza, edita ou combina commits antes de enviá-los ao repositório remoto. |
+| `Squash` e `Reword` | Dentro do rebase interativo, você pode usar as opções squash (esmagar) e reword (reeditar) para combinar ou modificar commits, respectivamente. |
+| `Pull Request` | Funcionalidade do GitHub que permite aos colaboradores enviar as alterações que fizeram em suas branches para serem revisadas e mescladas à branch principal do repositório. |
+| `Issues` | Forma de acompanhar tarefas, melhorias, correções de bugs ou discussões no repositório. |
+| `Actions` | Aba do GitHub que permite configurar e visualizar fluxos de trabalho de integração contínua (CI) e entrega contínua (CD) para automatizar testes e implantações do código. |
+| `Insights` | Aba do GitHub que fornece uma visão geral do repositório com informações sobre o tráfego, atividades dos colaboradores e estatísticas de código. |
+| `Forks` | Ação de clonar um repositório para a sua conta do GitHub. |
+| `Configurações do GitHub` | Aba do GitHub que oferece várias funcionalidades para personalizar o comportamento e a aparência do projeto, bem como gerenciar permissões, colaboradores e outras configurações importantes. |
+| `Features e Gist` | O GitHub possui diversas features adicionais, como Gist, que permite compartilhar trechos de código ou notas de forma rápida e simples, sem a necessidade de criar um repositório completo.
+
+<BR>
 
 
 # Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)
@@ -220,6 +91,27 @@ O GitHub possui diversas features adicionais, como Gist, que permite compartilha
 | cp | Copia um arquivo ou diretório. | `cp file.txt new_dir` |
 | mv | Move ou renomeia um arquivo ou diretório. | `mv file.txt new_dir/new_file.txt` |
 | pwd | Exibe o caminho do diretório atual. | `pwd` |
-
+| sudo | Comandos que exigem privilégios de administrador. | `sudo apt install` |
+| apt-get update | Atualiza a lista de pacotes disponíveis. | `sudo apt-get update` |
+| upgrade | Atualiza os pacotes instalados para a versão mais recente. | `sudo apt-get upgrade` |
+| install | Instala um pacote. | `sudo apt-get install package_name` |
+| dist-upgrade | Atualiza os pacotes instalados para a versão mais recente, incluindo a remoção de pacotes antigos. | `sudo apt-get dist-upgrade` |
+| autoremove | Remove pacotes que não são mais necessários por outros pacotes instalados. | `sudo apt-get autoremove` |
+| cache search | Pesquisa por pacotes na lista de pacotes disponíveis. | `apt cache search search_term` |
+| head | Exibe as primeiras linhas de um arquivo. | `head file.txt` |
+| head -n | Exibe as primeiras n linhas de um arquivo. | `head -n 10 file.txt` |
+| tail | Exibe as últimas linhas de um arquivo. | `tail file.txt` |
+| grep | Procura por padrões em um arquivo. | `grep pattern file.txt` |
+| grep -c | Conta o número de ocorrências de um padrão em um arquivo. | `grep -c pattern file.txt` |
+| find | Procura por arquivos que atendem a certos critérios. | `find / -name "*.txt"` |
+| locate | Procura por arquivos que atendem a certos critérios e os armazena em um índice. | `locate file.txt` |
+| useradd | Cria um novo usuário. | `sudo useradd user_name` |
+| usermod | Renomeia ou altera as propriedades de um usuário. | `sudo usermod -l new_user_name old_user_name` |
+| userdel | Remove um usuário. | `sudo userdel user_name` |
+| groupadd | Cria um novo grupo. | `sudo groupadd group_name` |
+| groupmod | Renomeia ou altera as propriedades de um grupo. | `sudo groupmod -l new_group_name old_group_name` |
+| groupdel | Remove um grupo. | `sudo groupdel group_name` |
+| usermod -a -G group_name user_name | Adiciona um usuário a um grupo. | `sudo usermod -a -G sudo user_name` |
+| passwd | Altera a senha de um usuário. | `sudo passwd user_name` |
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ff7f00&height=120&section=footer"/>
