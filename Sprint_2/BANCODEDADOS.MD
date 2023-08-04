@@ -2,158 +2,117 @@
 
 ## SQL para Análise de Dados: Do básico ao avançado
 
+Claro, aqui estão alguns exemplos dos comandos em ação:
 
+* `select email from sales.customers`
 
-```sql
--- select email from sales.customers
+> `SELECT email FROM sales.customers;`
 
-This query will select the `email` column from the `sales.customers` table.
-
-```
-
-**Example:**
-
-```sql
-email
--------
-john.doe@example.com
-jane.doe@example.com
-```
-
-```sql
--- select email, first_name, last_name from sales.customers
-
-This query will select the `email`, `first_name`, and `last_name` columns from the `sales.customers` table.
+A saída será uma lista de todos os emails na tabela `sales.customers`:
 
 ```
+john.doe@gmail.com
+mary.smith@yahoo.com
+steven.jackson@hotmail.com
+```
 
-**Example:**
+* `select email, first_name, last_name from sales.customers`
 
-```sql
+> `SELECT email, first_name, last_name FROM sales.customers;`
+
+A saída será uma lista de todos os clientes na tabela `sales.customers`, com seus emails, nomes e sobrenomes:
+
+```
 email | first_name | last_name
-------- | -------- | --------
-john.doe@example.com | John | Doe
-jane.doe@example.com | Jane | Doe
+-------|------------|------------
+john.doe@gmail.com | John | Doe
+mary.smith@yahoo.com | Mary | Smith
+steven.jackson@hotmail.com | Steven | Jackson
 ```
 
-```sql
--- todas as colunas da tabela
+* `select * from sales.customers`
 
--- select * from sales.customers
+> `SELECT * FROM sales.customers;`
 
-This query will select all columns from the `sales.customers` table.
-
-```
-
-**Example:**
-
-```sql
-email | first_name | last_name | state | birth_date
-------- | -------- | -------- | -------- | --------
-john.doe@example.com | John | Doe | MS | 1980-01-01
-jane.doe@example.com | Jane | Doe | SC | 1991-12-28
-```
-
-```sql
--- Distinct, remove linhas duplicadas
-
--- select brand from sales.products
-
-This query will select the `brand` column from the `sales.products` table. There may be duplicate brands in the table, so this query will return one row for each unique brand.
+A saída será uma lista de todos os dados na tabela `sales.customers`, incluindo as colunas `email`, `first_name`, `last_name` e todas as outras:
 
 ```
+id | email | first_name | last_name | state | birth_date | score
+-------|------------|------------|------------|-------|------------|-------
+1 | john.doe@gmail.com | John | Doe | MS | 1980-01-01 | 100
+2 | mary.smith@yahoo.com | Mary | Smith | SC | 1981-02-02 | 95
+3 | steven.jackson@hotmail.com | Steven | Jackson | GA | 1982-03-03 | 90
+```
 
-**Example:**
+* `select distinct brand from sales.products`
 
-```sql
+> `SELECT DISTINCT brand FROM sales.products;`
+
+A saída será uma lista de todas as marcas distintas na tabela `sales.products`:
+
+```
 brand
 -------
 Apple
 Samsung
-Google
+Sony
 ```
 
-```sql
--- select distinct brand from sales.products
+* `select distinct brand, model_year from sales.products`
 
-This query will select the `brand` column from the `sales.products` table, but it will only return one row for each unique brand. This is the same as the previous query, but it uses the `distinct` keyword to remove duplicate rows.
+> `SELECT DISTINCT brand, model_year FROM sales.products;`
 
-```
-
-**Example:**
-
-```sql
-brand
--------
-Apple
-Samsung
-Google
-```
-
-```sql
--- select distinct brand,model_year from sales.products
-
-This query will select the `brand` and `model_year` columns from the `sales.products` table, but it will only return one row for each unique combination of brand and model year.
+A saída será uma lista de todas as marcas e anos de modelo distintos na tabela `sales.products`:
 
 ```
-
-**Example:**
-
-```sql
 brand | model_year
-------- | --------
-Apple | 2022
+-------|------------
 Apple | 2023
-Samsung | 2022
+Apple | 2022
 Samsung | 2023
-Google | 2022
-Google | 2023
 ```
 
-```sql
--- select email state from sales.customers where state = 'MS'
+* `select email, state from sales.customers where state = 'MS'`
 
-This query will select the `email` and `state` columns from the `sales.customers` table where the `state` column is equal to `MS`.
+> `SELECT email, state FROM sales.customers WHERE state = 'MS';`
+
+A saída será uma lista de todos os clientes no Mississippi, com seus emails e estados:
 
 ```
-
-**Example:**
-
-```sql
 email | state
-------- | --------
-john.doe@example.com | MS
+-------|-------
+john.doe@gmail.com | MS
+steven.jackson@hotmail.com | MS
 ```
 
-```sql
--- select email state from sales.customers where state = 'SC' or state = 'MS'
+* `select email, state from sales.customers where state = 'SC' or state = 'MS'`
 
-This query will select the `email` and `state` columns from the `sales.customers` table where the `state` column is equal to `SC` or `MS`.
+> `SELECT email, state FROM sales.customers WHERE state = 'SC' OR state = 'MS';`
+
+A saída será uma lista de todos os clientes no Mississippi ou na Carolina do Sul, com seus emails e estados:
 
 ```
-
-**Example:**
-
-```sql
 email | state
-------- | --------
-john.doe@example.com | MS
-jane.doe@example.com | SC
+-------|-------
+john.doe@gmail.com | MS
+steven.jackson@hotmail.com | MS
+mary.smith@yahoo.com | SC
 ```
 
-```sql
-select email, state, birth_date
+* `select email, state, birth_date
 from sales.customers
-where (state = 'SC' or state = 'MS') and birth_date < '1991-12-28'
+where (state = 'SC' or state = 'MS') and birth_date < '1991-12-28'`
 
-This query will select the `email`, `state`, and `birth_date` columns from the `sales.customers` table where the `state` column is equal to `SC` or `MS` and the `birth_date` column is less than `1991-12-28`.
+> ```SELECT email, state, birth_date
+FROM sales.customers
+WHERE (state = 'SC' OR state = 'MS') AND birth_date < '1991-12-28';```
+
+A saída será uma lista de todos os clientes no Mississippi ou na Carolina do Sul que nasceram antes de 28 de dezembro de 1991, com seus emails, estados e datas de nascimento:
 
 ```
-
-**Example:**
-
-```sql
 email | state | birth_date
-------- | -------- | --------
-jane.doe@example.com | SC | 1991-01-01
+-------|-------|------------
+john.doe@gmail.com | MS | 1980-01-01
+steven.jackson@hotmail.com | MS | 1982-03-03
 ```
+
