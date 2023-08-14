@@ -1,9 +1,6 @@
 # SPRINT 2
 
 ## SQL para Análise de Dados: Do básico ao avançado
-### Modulo 1 - Comandos básicos
-Claro, aqui está o arquivo readme explicativo, com exemplos detalhados e explicativos, tudo em formato de código markdown:
-
 # SQL para Análise de Dados: Do básico ao avançado
 
 ## Módulo 1 - Comandos básicos
