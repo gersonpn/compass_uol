@@ -1334,6 +1334,53 @@ A visualização de dados é o processo de representar dados graficamente para f
 * **Uso de legendas e títulos:** forneça legendas e títulos claros para que os usuários possam entender o que estão vendo.
 * **Formatação de dados:** formate os dados de forma consistente para facilitar a comparação.
 
+## Serviços e produtos
+
+* **Amazon Redshift:** serviço de data warehouse da AWS utilizado para modernizar data warehouses herdados
+* **Amazon Kinesis:** produto da AWS você usado para dados em transmissão
+
+
+## Categorias relacionadas a dados e análises na AWS
+
+* **Governança e segurança de dados:** implementação de práticas de governança de dados e segurança para proteger e gerenciar os dados da organização
+* **Integração e preparação dos dados:** atividades de integração de dados e preparação para análises, incluindo coleta, transformação e disponibilização de dados para análises
+* **Business Intelligence (BI) e visualização de dados:** uso de ferramentas de BI e visualização para criar painéis e relatórios que auxiliam na tomada de decisões com base nos dados
+
+
+## Software de código aberto de análise de dados compatíveis com a AWS
+
+* **Amazon EMR para Hadoop:** plataforma da AWS para processamento de big data que é compatível com várias estruturas de código aberto, incluindo o ecossistema Hadoop
+* **Amazon Elasticsearch Service for Elasticsearch:** serviço gerenciado que permite implantar e escalar o Elasticsearch, que é uma plataforma de busca e análise de código aberto
+* **AWS Glue:** serviço de ETL (Extração, Transformação e Carga) totalmente gerenciado que é usado para a preparação de dados para análises
+
+
+## Outros conceitos e termos
+
+* **AWS Service Delivery Program:** programa da AWS que ajuda os clientes a encontrar parceiros confiáveis e qualificados para serviços específicos da AWS
+* **Nível "Select":** status de especialização do APN (AWS Partner Network) Navigate que os parceiros de consultoria da AWS começam a alcançar
+* **Data lake descaracterizado (DIDL):** parte importante de uma solução de governança de dados que ajuda a resolver problemas de PII (Informação Pessoalmente Identificável) e auxilia no cumprimento das regulamentações de privacidade
+* **Componentes típicos de um pipeline de dados:** coleta, armazenamento, processamento e análise, visualização
+* **PartnerCast:** série semanal de webinars interativos gratuitos sobre produtos e serviços da AWS projetados para ajudar os parceiros a desenvolver novas oportunidades para os clientes e aprimorar relacionamentos profissionais
+* **Criar um data lake:** primeira etapa de uma jornada do cliente para se tornar uma empresa orientada por dados
+
+
+## Diferenciais de análise de dados da AWS
+
+* **Inovação:** ampla gama de serviços e ferramentas para análise de dados, permitindo que as organizações inovem e desenvolvam soluções de análise avançadas
+* **Economia de custo:** evitar custos de infraestrutura significativos e pagar apenas pelo que usa
+* **Agilidade empresarial:** escalabilidade e flexibilidade, permitindo que as empresas ajustem e expandam suas operações de análise conforme necessário
+
+
+## Outros termos específicos
+
+* **Detratores:** função que tem interesse em manter os parâmetros atuais devido a preocupações sobre empregos, perda de autoridade e desinformação sobre os benefícios das ofertas em nuvem
+* **Framework de perguntas de descoberta:** geralmente inclui as seguintes áreas principais: vantagens competitivas, impacto e desafios
+* **Data lake:** abordagem arquitetônica para um repositório corporativo centralizado que pode armazenar dados estruturados, não estruturados, semiestruturados e brutos
+* **Promotores:** função que tem experiência de campo com os clientes e pode influenciar os influenciadores
+* **Amazon S3:** armazenamento de objetos durável e disponível, altamente escalável e econômico
+* **Data warehouse:** repositório central de dados selecionados de diferentes fontes usado para relatórios de dados, análises e tomada de decisão informada
+* **Influenciadores:** função que normalmente não tem autoridade de tomada de decisão, mas pode influenciar as decisões de um executivo de nível C
+
 ## **Conclusão**
 
 A análise de dados é uma ferramenta poderosa que pode ser usada para tomar decisões informadas. Ao entender os diferentes componentes do pipeline de análise de dados, você pode usar essa ferramenta para obter insights valiosos sobre seus negócios.
