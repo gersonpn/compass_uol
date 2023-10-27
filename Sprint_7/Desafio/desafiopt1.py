@@ -1,4 +1,4 @@
-import boto3
+##import boto3
 import csv
 import datetime
 
@@ -7,7 +7,7 @@ aws_secret_access_key ='sfNwtiGDRkQ2yPMs5NC6rxCbGgpRn+hHuQ2fPN1K'
 bucket_name = 'seriesefilmes'
 
 # Configuração do cliente S3
-s3 = boto3.client('s3', aws_access_key_id = aws_access_key_id, aws_secret_access_key = aws_secret_access_key)
+#s3 = boto3.client('s3', aws_access_key_id = aws_access_key_id, aws_secret_access_key = aws_secret_access_key)
 
 # Define os caminhos dos arquivos CSV de filmes e séries
 csv_movies_path = '/app/movies.csv'
