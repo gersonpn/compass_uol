@@ -25,4 +25,5 @@ df = pd.DataFrame(filmes)
 display(df)
 
 
-print(df)
+
+df.to_csv('movies.csv', index=False)
