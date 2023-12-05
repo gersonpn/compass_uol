@@ -9,7 +9,7 @@ bucket_name = 'seriesefilmes'
 # Configuração do cliente S3
 s3 = boto3.client('s3', aws_access_key_id = aws_access_key_id, aws_secret_access_key = aws_secret_access_key)
 
-# Define os caminhos dos arquivos CSV de filmes e séries
+# caminhos dos arquivos CSV de filmes e séries
 csv_movies_path = '/app/movies.csv'
 csv_series_path = '/app/series.csv'
 
